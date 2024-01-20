@@ -1,0 +1,20 @@
+- type: job
+  id: Guard
+  name: guard
+  description: guard
+  playTimeTracker: JobPassenger
+  startingGear: GuardGear
+  icon: "JobIconPassenger"
+  supervisors: overseer
+  access:
+  - Maintenance
+
+- type: startingGear
+  id: GuardGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitColorGrey
+    back: WeaponRifleAk
+    shoes: ClothingShoesBootsWork
+    outerClothing: ClothingOuterCoatBomber
+    hands: ClothingHandsGlovesCombat
+    
