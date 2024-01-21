@@ -2,7 +2,7 @@
   id: Guard
   name: guard
   description: guard
-  playTimeTracker: JobPassenger
+  playTimeTracker: JobGuard
   startingGear: GuardGear
   icon: "JobIconPassenger"
   supervisors: overseer
